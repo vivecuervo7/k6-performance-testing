@@ -5,6 +5,9 @@
   "directories": {
     "test": "tests"
   },
+  "scripts": {
+    "test": "k6 run script.ts --compatibility-mode=experimental_enhanced"
+  },
   "license": "ISC",
   "devDependencies": {
     "@types/k6": "^0.54.1"
